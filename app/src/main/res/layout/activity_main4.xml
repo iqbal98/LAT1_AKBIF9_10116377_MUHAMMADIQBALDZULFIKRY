@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:background="@color/white2"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="250dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        >
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            >
+            <TextView
+                android:id="@+id/teks4_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Beres! Sekarang "
+                android:textSize="20dp"
+                android:textColor="@color/black"
+
+                />
+
+            <TextView
+                android:id="@+id/tv_teks1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            >
+            <TextView
+                android:id="@+id/teks4_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="udah bisa ngecek penggunaan HPmu tiap hari buat bantu kamu ngatur waktu :)"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"
+
+        >
+
+        <Button
+            android:id="@+id/tombol4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_button"
+            android:gravity="center_horizontal"
+            android:padding="15dp"
+            android:text="Oke"
+            android:textAlignment="center"
+            android:clickable="true"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:clickable="true"
+    android:id="@+id/index"
+    android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/gamabar1"
+        android:layout_marginTop="75dp"
+        android:layout_marginBottom="150dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+
+
+        >
+
+        <TextView
+            android:id="@+id/teks1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="Monitory Membantu Anda"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+
+            />
+
+        <TextView
+            android:id="@+id/teks1_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="Mengontrol HP Anak"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/white3"
+        >
+
+        <Button
+            android:id="@+id/tombol1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="15dp"
+            android:text="@string/tombol1"
+            android:textAlignment="center"
+            android:background="@drawable/custom_button"
+            android:onClick="pindah"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>

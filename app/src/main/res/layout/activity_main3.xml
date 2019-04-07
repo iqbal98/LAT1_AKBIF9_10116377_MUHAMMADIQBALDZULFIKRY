@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white2"
+    android:clickable="true"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="220dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:paddingBottom="30dp"
+        android:paddingTop="30dp"
+
+        >
+
+        <TextView
+            android:id="@+id/teks3_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Panggilan Kamu"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            />
+
+        <EditText
+            android:id="@+id/edittext3_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contoh: Budi"
+            />
+        <TextView
+            android:id="@+id/teks3_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Umur Kamu"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            />
+        <EditText
+            android:id="@+id/edittext3_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contoh: 12"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="30dp"
+
+        >
+
+        <Button
+
+            android:id="@+id/tombol3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_button"
+            android:gravity="center_horizontal"
+            android:onClick="berubah"
+            android:padding="15dp"
+            android:text="Selanjutnya"
+            android:textAlignment="center"
+            android:clickable="true"
+
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

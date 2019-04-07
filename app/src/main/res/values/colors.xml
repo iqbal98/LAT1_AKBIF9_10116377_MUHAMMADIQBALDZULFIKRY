@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#dedede</color>
+    <color name="white2">#f2f2f2</color>
+    <color name="white3">#f8f8f8</color>
+    <color name="black">#000000</color>
+    <color name="sunflower">#ffc50d</color>
+    <color name="butterscotch">#fcb93a</color>
+    <color name="sunyellow">#ffe41e</color>
+    <color name="lavender">#8084f9</color>
+    <color name="warm">#3e43e9</color>
+    <color name="purpleish">#494dea</color>
+</resources>
+
